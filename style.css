@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+#taskInput {
+    margin: 20px 0 20px 500px;
+    
+}
+#addTaskButton{
+    border: 2px solid #64E687;
+    background: transparent;
+    color: #64E687;
+}
+#addTaskButton:hover{
+    background-color: #64E687;
+    color: white;
+}
+.btn{
+    border: 2px solid #0083ff;
+    background: transparent;
+    color: #0083ff;
+}
+.btn:hover{
+    background-color: #0083ff;
+    color: white;
+}
+.all-btns {
+    margin: 20px 0 20px 400px;
+}
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+li.completed {
+    text-decoration: line-through;
+    color: black;
+}
+.editing input {
+    width: calc(100% - 80px);
+    margin-right: 5px;
+}
+#noTasksMessage {
+    text-align: center;
+    color: #777;
+}
+

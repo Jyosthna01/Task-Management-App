@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>To-Do List Manager</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskButton">Add Task</button>
+
+    <div class="all-btns">
+        <button id="showAll" class="btn">Show All</button>
+        <button id="showCompleted" class="btn">Show Completed</button>
+        <button id="showNotCompleted" class="btn">Show Not Completed</button>
+        <input type="text" id="searchBar" placeholder="Search tasks...">
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <p id="noTasksMessage" style="display: none;">No tasks to show.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
